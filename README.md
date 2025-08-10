@@ -26,7 +26,7 @@ The best-performing combination is then used for live predictions, with automati
 ## Installation
 
 1. **Clone the repository**
-   ```bash
+   
    git clone https://github.com/yourusername/Third-Party-Liability-Claims.git
    cd Third-Party-Liability-Claims
 2. **Install dependencies**
