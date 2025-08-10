@@ -1,0 +1,10 @@
+freq_model,freq_params,sev_model,sev_params,MAE
+Poisson,{'alpha': 0.01},RandomForest,"{'max_depth': 6, 'n_estimators': 100}",159.39501289513746
+XGB,"{'max_depth': 6, 'n_estimators': 100}",Tweedie_Gamma,"{'alpha': 1, 'power': 1.5}",162.14263205452121
+RandomForest,"{'max_depth': 12, 'n_estimators': 150}",Tweedie_Gamma,"{'alpha': 1, 'power': 1.5}",162.23504743785554
+XGB,"{'max_depth': 6, 'n_estimators': 100}",RandomForest,"{'max_depth': 6, 'n_estimators': 100}",163.74508006785362
+RandomForest,"{'max_depth': 12, 'n_estimators': 150}",RandomForest,"{'max_depth': 6, 'n_estimators': 100}",164.69124237750205
+Poisson,{'alpha': 0.01},Tweedie_Gamma,"{'alpha': 1, 'power': 1.5}",166.49434254846162
+Poisson,{'alpha': 0.01},XGB,"{'max_depth': 3, 'n_estimators': 50}",167.15016733075942
+RandomForest,"{'max_depth': 12, 'n_estimators': 150}",XGB,"{'max_depth': 3, 'n_estimators': 50}",172.3499430744535
+XGB,"{'max_depth': 6, 'n_estimators': 100}",XGB,"{'max_depth': 3, 'n_estimators': 50}",172.58819000589793
